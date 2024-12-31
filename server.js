@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.static('./'));
@@ -161,7 +161,7 @@ app.post('/download', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Sunucu http://localhost:${port} adresinde çalışıyor`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Sunucu http://0.0.0.0:${port} adresinde çalışıyor`);
     console.log(`İndirilen dosyalar ${downloadDir} klasörüne kaydedilecek`);
 }); 
