@@ -47,6 +47,5 @@ node server.js
 - ytdl-core
 - HTML/CSS/JavaScript
 
-## Lisans
+![image](https://github.com/user-attachments/assets/5f66afbe-3a61-4a46-8d50-052b254ded1f)
 
-Bu proje MIT lisansı altında lisanslanmıştır. 
