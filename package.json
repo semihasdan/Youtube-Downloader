@@ -1,0 +1,14 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube Video İndirici",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "youtube-dl-exec": "^2.5.7"
+  }
+} 
