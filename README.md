@@ -31,7 +31,7 @@ npm install
 node server.js
 ```
 
-5. Tarayıcınızda şu adresi açın: `http://localhost:3000`
+5. Tarayıcınızda şu adresi açın: `http://localhost:3001`
 
 ## Kullanım
 
